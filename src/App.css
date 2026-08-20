@@ -455,18 +455,29 @@
   transform: translateY(-2px) scale(1.01);
 }
 
-.chip-logo {
+.chip-logo-img-wrap {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
-  border-radius: 50%;
-  box-shadow: 0 0 10px color-mix(in srgb, var(--chip-accent) 50%, transparent 50%);
+  width: 44px;
+  height: 44px;
+  border-radius: 12px;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0 0 12px color-mix(in srgb, var(--chip-accent) 45%, transparent 55%);
   transition: box-shadow 0.25s ease;
 }
 
-.competition-chip:hover .chip-logo {
-  box-shadow: 0 0 20px color-mix(in srgb, var(--chip-accent) 70%, transparent 30%);
+.competition-chip:hover .chip-logo-img-wrap {
+  box-shadow: 0 0 22px color-mix(in srgb, var(--chip-accent) 65%, transparent 35%);
+}
+
+.chip-logo-img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  padding: 4px;
 }
 
 .chip-body {

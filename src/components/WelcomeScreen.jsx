@@ -1,69 +1,25 @@
 // src/components/WelcomeScreen.jsx
 import React from 'react';
 
-// ─── SVG logos de competiciones ──────────────────────────────────────────────
-
-// Copa del Mundo FIFA — negro/dorado
-function IconMundial() {
-  return (
-    <svg width="28" height="28" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <circle cx="24" cy="24" r="24" fill="#002868"/>
-      <text x="24" y="32" textAnchor="middle" fontSize="22" fill="#C9A84C" fontWeight="bold">⚽</text>
-    </svg>
-  );
-}
-
-// Champions League — negro/estrellado
-function IconChampions() {
-  return (
-    <svg width="28" height="28" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <circle cx="24" cy="24" r="24" fill="#1A1A2E"/>
-      {/* Balón estilizado UCL */}
-      <circle cx="24" cy="24" r="11" fill="none" stroke="#c89b3c" strokeWidth="2"/>
-      <polygon points="24,13 26,19 33,19 27,23 29,30 24,26 19,30 21,23 15,19 22,19" fill="#c89b3c"/>
-    </svg>
-  );
-}
-
-// Premier League — morado/blanco (lion)
-function IconPremier() {
-  return (
-    <svg width="28" height="28" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <circle cx="24" cy="24" r="24" fill="#37003C"/>
-      <text x="24" y="31" textAnchor="middle" fontSize="18" fill="#00FF87">🦁</text>
-    </svg>
-  );
-}
-
-// La Liga / Copa del Mundo — rojo/naranja
-function IconLaLiga() {
-  return (
-    <svg width="28" height="28" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-      <circle cx="24" cy="24" r="24" fill="#EE8208"/>
-      <text x="24" y="31" textAnchor="middle" fontSize="18" fill="#fff">🏆</text>
-    </svg>
-  );
-}
-
 const suggestions = [
   {
-    logo: <IconMundial />,
+    logo: '/logo-mundial.jpg',
     competition: 'Copa del Mundo FIFA',
     accentColor: '#C9A84C',
-    bgColor: 'rgba(0,40,104,0.22)',
-    borderColor: 'rgba(201,168,76,0.45)',
+    bgColor: 'rgba(0,40,104,0.2)',
+    borderColor: 'rgba(201,168,76,0.4)',
     text: '¿Qué selección ha disputado más finales en los Mundiales?',
   },
   {
-    logo: <IconChampions />,
+    logo: '/logo-champions.jpg',
     competition: 'Champions League',
-    accentColor: '#c89b3c',
-    bgColor: 'rgba(26,26,46,0.45)',
-    borderColor: 'rgba(200,155,60,0.45)',
+    accentColor: '#d4af37',
+    bgColor: 'rgba(20,20,40,0.35)',
+    borderColor: 'rgba(212,175,55,0.4)',
     text: '¿Quién es el máximo goleador histórico de los Mundiales?',
   },
   {
-    logo: <IconPremier />,
+    logo: '/logo-premier.jpg',
     competition: 'Premier League',
     accentColor: '#00FF87',
     bgColor: 'rgba(55,0,60,0.25)',
@@ -71,11 +27,11 @@ const suggestions = [
     text: '¿Qué estadio tiene mayor capacidad en la Premier League?',
   },
   {
-    logo: <IconLaLiga />,
-    competition: 'FutbolAI',
-    accentColor: '#EE8208',
-    bgColor: 'rgba(238,130,8,0.12)',
-    borderColor: 'rgba(238,130,8,0.4)',
+    logo: '/logo-laliga.jpg',
+    competition: 'LaLiga',
+    accentColor: '#f97316',
+    bgColor: 'rgba(239,68,8,0.1)',
+    borderColor: 'rgba(249,115,22,0.4)',
     text: '¿Para qué sirves y qué te puedo preguntar?',
   },
 ];
@@ -106,7 +62,7 @@ export default function WelcomeScreen({ onChipClick }) {
           Tu analista experto en fútbol mundial. Pregúntame sobre estadísticas, récords históricos o datos de las grandes competiciones.
         </p>
 
-        {/* Competition chips */}
+        {/* Competition chips with real logos */}
         <div className="welcome-chips">
           {suggestions.map((s, i) => (
             <button
@@ -119,7 +75,13 @@ export default function WelcomeScreen({ onChipClick }) {
               }}
               onClick={() => onChipClick && onChipClick(s.text)}
             >
-              <span className="chip-logo">{s.logo}</span>
+              <span className="chip-logo-img-wrap">
+                <img
+                  src={s.logo}
+                  alt={s.competition}
+                  className="chip-logo-img"
+                />
+              </span>
               <span className="chip-body">
                 <span className="chip-competition">{s.competition}</span>
                 <span className="chip-question">{s.text}</span>
