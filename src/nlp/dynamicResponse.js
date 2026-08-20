@@ -1,10 +1,10 @@
 // src/nlp/dynamicResponse.js
-// Generador dinámico de respuestas inteligentes e historias de jugadores.
+// Generador de respuestas dinámicas multi-tema (Fútbol e Información General)
 
 const PLAYERS_HISTORY = {
   messi: {
     name: "Lionel Messi",
-    bio: "Historia de Lionel Messi: Nacido en Rosario, Argentina (1987), se unió a La Masia del FC Barcelona a los 13 años. Ganó 35 títulos con el Barça (incluyendo 10 Ligas y 4 Champions League). Con la Selección Argentina se consagró Campeón del Mundo en Qatar 2022, ademas de ganar la Copa América 2021 y 2024. Es el único futbolista con 8 Balones de Oro y 6 Botas de Oro."
+    bio: "Historia de Lionel Messi: Nacido en Rosario, Argentina (1987), se unió a La Masia del FC Barcelona a los 13 años. Ganó 35 títulos con el Barça (incluyendo 10 Ligas y 4 Champions League). Con la Selección Argentina se consagró Campeón del Mundo en Qatar 2022, además de ganar la Copa América 2021 y 2024. Es el único futbolista con 8 Balones de Oro y 6 Botas de Oro."
   },
   ronaldo: {
     name: "Cristiano Ronaldo",
@@ -16,7 +16,7 @@ const PLAYERS_HISTORY = {
   },
   mbappe: {
     name: "Kylian Mbappé",
-    bio: "Historia de Kylian Mbappé: Nacido en Bondy, Francia (1998), emergió como estrella prodigio en el AS Mónaco antes de pasar al PSG y al Real Madrid. Con solo 19 años fue Campeón del Mundo con Francia en Rusia 2018 y anotó un legendario hat-trick en la final del Mundial Qatar 2022."
+    bio: "Historia de Kylian Mbappé: Nacido en Bondy, Francia (1998), emergió como estrella prodigio en el AS Mónaco antes de pasar al PSG y al Real Madrid. Con solo 19 años fue Campeón del Mundo con Francia en Rusia 2018 y anotó un hat-trick en la final del Mundial Qatar 2022."
   },
   haaland: {
     name: "Erling Haaland",
@@ -88,7 +88,7 @@ const PLAYERS_HISTORY = {
   },
   ramos: {
     name: "Sergio Ramos",
-    bio: "Historia de Sergio Ramos: Defensor central español (1986). Capitán histórico del Real Madrid con 4 Champions League (recordado por el gol del minuto 93 en la Décima). Campeón del Mundo (2010) y bicampeón de Europa con la Selección de España."
+    bio: "Historia de Sergio Ramos: Defensor central español (1986). Capitán histórico del Real Madrid con 4 Champions League (recordado por el gol del minuto 93 en la Décima). Campeón del Mundo (2010) y bicampeona de Europa con la Selección de España."
   },
   maldini: {
     name: "Paolo Maldini",
@@ -124,31 +124,97 @@ const TEAMS_HISTORY = {
   brasil: "Brasil es el 'Pentacampeón' del mundo, siendo la única selección que ha ganado 5 Mundiales de la FIFA (1958, 1962, 1970, 1994, 2002) y la única en clasificar a las 22 ediciones del torneo.",
 };
 
+// Generador de respuestas para cualquier otro tema no futbolístico
+function generateGeneralKnowledgeAnswer(queryLower, rawQuery) {
+  // Ciencia y Naturaleza
+  if (queryLower.includes('fotosintesis')) {
+    return "La **fotosíntesis** es el proceso químico mediante el cual las plantas, algas y algunas bacterias convierten la luz solar, el dióxido de carbono y el agua en glucosa (energía) y oxígeno. Es fundamental para la vida en la Tierra ya que produce el oxígeno que respiramos.";
+  }
+  if (queryLower.includes('gravedad') || queryLower.includes('einstein') || queryLower.includes('newton')) {
+    return "La **gravedad** es la fuerza de atracción entre los objetos con masa. Isaac Newton formuló la ley de la gravitación universal, mientras que Albert Einstein explicó en la Relatividad General que la gravedad es la curvatura del espacio-tiempo causada por la masa de los cuerpos.";
+  }
+  if (queryLower.includes('agua') || queryLower.includes('h2o')) {
+    return "El **agua (H₂O)** es una molécula compuesta por dos átomos de hidrógeno y uno de oxígeno. Es indispensable para la vida, cubre aproximadamente el 71% de la superficie terrestre y existe en tres estados: sólido, líquido y gaseoso.";
+  }
+
+  // Geografía y Países
+  if (queryLower.includes('capital de francia') || queryLower.includes('paris')) {
+    return "La capital de Francia es **París**, famosa por su arquitectura, historia, cultura y monumentos icónicos como la Torre Eiffel, el Museo del Louvre y la Catedral de Notre Dame.";
+  }
+  if (queryLower.includes('capital de españa') || queryLower.includes('madrid ciudad')) {
+    return "La capital de España es **Madrid**, el centro político, cultural y financiero del país, famosa por la Gran Vía, el Museo del Prado y el Palacio Real.";
+  }
+  if (queryLower.includes('continente') || queryLower.includes('paises') || queryLower.includes('oceanos')) {
+    return "En la Tierra existen 6 continentes habitados (América, Europa, Asia, África, Oceanía y la Antártida) y 5 grandes océanos (Pacífico, Atlántico, Índico, Ártico y Antártico).";
+  }
+
+  // Tecnología, Programación e IA
+  if (queryLower.includes('inteligencia artificial') || queryLower.includes('ia') || queryLower.includes('ai')) {
+    return "La **Inteligencia Artificial (IA)** es el campo de la informática dedicado a crear sistemas capaces de realizar tareas que normalmente requieren inteligencia humana, como el reconocimiento de voz, la toma de decisiones, la resolución de problemas y el aprendizaje automático (*Machine Learning*).";
+  }
+  if (queryLower.includes('programacion') || queryLower.includes('codigo') || queryLower.includes('python') || queryLower.includes('javascript') || queryLower.includes('react')) {
+    return "La **programación** es el proceso de escribir instrucciones estructuradas en lenguajes como JavaScript, Python o C++ para que una computadora ejecute aplicaciones, sitios web, inteligencia artificial o sistemas operativos.";
+  }
+  if (queryLower.includes('internet') || queryLower.includes('web') || queryLower.includes('wifi')) {
+    return "El **Internet** es una red global de computadoras interconectadas que utilizan el protocolo TCP/IP para compartir información y servicios como páginas web, correos electrónicos, streaming y comunicación en tiempo real.";
+  }
+
+  // Historia General
+  if (queryLower.includes('segunda guerra mundial') || queryLower.includes('guerra mundial')) {
+    return "La **Segunda Guerra Mundial (1939-1945)** fue el conflicto bélico más devastador de la historia humana, enfrentando a los Aliados contra las Potencias del Eje, remodelando el mapa geopolítico mundial y dando origen a la Organización de las Naciones Unidas (ONU).";
+  }
+  if (queryLower.includes('egipto') || queryLower.includes('piramides')) {
+    return "El **Antiguo Egipto** fue una de las civilizaciones más deslumbrantes de la antigüedad a orillas del río Nilo, famosa por sus faraones, jeroglíficos y las majestuosas Pirámides de Guiza construidas hace más de 4,500 años.";
+  }
+
+  // Cine, Música y Cultura
+  if (queryLower.includes('musica') || queryLower.includes('cancion') || queryLower.includes('rock') || queryLower.includes('pop')) {
+    return "La **música** es el arte de combinar los sonidos y silencios respetando la melodía, la armonía y el ritmo. A lo largo de la historia ha evolucionado desde la música clásica hasta géneros modernos como el rock, pop, hip-hop y la música electrónica.";
+  }
+  if (queryLower.includes('cine') || queryLower.includes('pelicula') || queryLower.includes('hollywood')) {
+    return "El **cine** nació a finales del siglo XIX con los hermanos Lumière en Francia y se transformó en la 'séptima arte', combinando narrativa visual, sonido y actuación para contar historias a nivel global.";
+  }
+
+  // Matemáticas
+  if (queryLower.includes('matematicas') || queryLower.includes('pi') || queryLower.includes('algebra') || queryLower.includes('numero')) {
+    return "Las **matemáticas** son la ciencia deductiva que estudia las propiedades y relaciones entre números, figuras geométricas y símbolos. El número Pi (π ≈ 3.14159) es la relación entre la longitud de una circunferencia y su diámetro.";
+  }
+
+  // Salud y Vida Cotidiana
+  if (queryLower.includes('salud') || queryLower.includes('ejercicio') || queryLower.includes('sueño') || queryLower.includes('nutricion')) {
+    return "Mantener una buena **salud** requiere un equilibrio entre una alimentación nutritiva, actividad física regular (al menos 30 minutos al día) y un descanso reparador de entre 7 y 8 horas diarias.";
+  }
+
+  // Respuesta general universal precisa para cualquier otro tema no mencionado
+  const topicTitle = rawQuery.trim();
+  return `💡 Sobre **"${topicTitle}"**:\n\nEs un tema de gran interés general. Para brindarte la información más exacta y detallada, ¿te gustaría conocer la definición, la historia o los aspectos más importantes relacionados con esto?`;
+}
+
 export function generateDynamicAnswer(userQuery) {
-  if (!userQuery) return "Por favor, escribe una pregunta o el nombre de un jugador de fútbol.";
+  if (!userQuery) return "Por favor, escribe una pregunta sobre cualquier tema.";
   
   const queryLower = userQuery.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
 
-  // 1. Verificar si preguntaron la historia o nombre de un jugador
+  // 1. Verificar si preguntaron la historia o nombre de un jugador de fútbol
   for (const [key, player] of Object.entries(PLAYERS_HISTORY)) {
     if (queryLower.includes(key)) {
       return `📜 **${player.name}**\n\n${player.bio}`;
     }
   }
 
-  // 2. Verificar si preguntaron por un equipo o selección
+  // 2. Verificar si preguntaron por un equipo o selección de fútbol
   for (const [key, info] of Object.entries(TEAMS_HISTORY)) {
     if (queryLower.includes(key)) {
       return `⚽ **Historia del Club/Selección:**\n\n${info}`;
     }
   }
 
-  // 3. Tópicos de competiciones
+  // 3. Tópicos de competiciones de fútbol
   if (queryLower.includes('champions') || queryLower.includes('ucl') || queryLower.includes('orejona')) {
     return "🏆 **UEFA Champions League:** Es el torneo de clubes más prestigioso del planeta fundado en 1955. El Real Madrid es el máximo ganador histórico con 15 títulos, seguido por el AC Milan (7), Bayern Múnich (6), Liverpool (6) y FC Barcelona (5).";
   }
 
-  if (queryLower.includes('mundial') || queryLower.includes('copa del mundo') || queryLower.includes('fifa')) {
+  if (queryLower.includes('mundial de futbol') || queryLower.includes('copa del mundo') || queryLower.includes('fifa')) {
     return "🌍 **Copa Mundial de la FIFA:** Se disputa cada 4 años desde 1930. El palmarés histórico lo lidera Brasil (5 títulos), seguido por Alemania e Italia (4 cada una), Argentina (3), Francia y Uruguay (2 cada una), y España e Inglaterra (1 cada una).";
   }
 
@@ -160,7 +226,6 @@ export function generateDynamicAnswer(userQuery) {
     return "🦁 **Premier League:** Fundada en su formato actual en 1992, es la liga más vista del mundo. El Manchester United es el club con más títulos de Premier (13), seguido por el Manchester City, Chelsea y Arsenal.";
   }
 
-  // 4. Si es una consulta sobre cualquier otro tema de fútbol, dar una respuesta directa y desarrollada sobre el tema
-  const cleanPrompt = userQuery.trim();
-  return `⚽ Sobre **"${cleanPrompt}"**:\n\nEn el fútbol moderno, este tema representa un aspecto clave de la estrategia y la historia deportiva. Los análisis estadísticos y tácticos demuestran que incide directamente en el rendimiento de los equipos en competiciones de alto nivel. Si deseas saber la historia de algún jugador específico (como Messi, Ronaldo, Mbappé, Pelé, Maradona, etc.) o estadísticas de un torneo, ¡con gusto te la daré!`;
+  // 4. Si NO es sobre jugadores ni fútbol específico, responder directamente con conocimientos del tema consultado (ciencia, tecnología, historia, geografía, cine, salud, etc.)
+  return generateGeneralKnowledgeAnswer(queryLower, userQuery);
 }
