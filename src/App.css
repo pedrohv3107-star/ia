@@ -266,6 +266,7 @@
   font-size: 1.02rem;
   background: linear-gradient(90deg, #f8fafc 0%, #38bdf8 60%, #a855f7 100%);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
@@ -414,6 +415,7 @@
   letter-spacing: -0.02em;
   background: linear-gradient(90deg, #C9A84C 0%, #f8fafc 40%, #C9A84C 100%);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
@@ -697,6 +699,7 @@
   font-weight: 800;
   background: linear-gradient(90deg, #38bdf8, #a855f7);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
