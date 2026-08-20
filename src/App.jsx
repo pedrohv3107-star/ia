@@ -10,6 +10,8 @@ import MessageList       from './components/MessageList';
 import ChatInputBar      from './components/ChatInputBar';
 import ChatFooter        from './components/ChatFooter';
 
+import { generateDynamicAnswer } from './nlp/dynamicResponse';
+
 // NLP matcher
 function findBestAnswer(userQuery) {
   if (!userQuery || !userQuery.trim()) return null;
@@ -58,9 +60,11 @@ export default function App() {
         showQuote: false,
       };
     } else {
+      // Dynamic AI reasoning on the fly for any question not in dataset
+      const dynamicResponseText = generateDynamicAnswer(text);
       botMsg = {
         type: 'bot',
-        text: 'No encontré una respuesta exacta en mi base de datos. Prueba preguntando sobre récords de la Copa del Mundo, estadísticas de fútbol, historia de torneos o datos de selecciones.',
+        text: dynamicResponseText,
         showSpotlight: false,
         showQuote: false,
       };
