@@ -372,9 +372,6 @@ export function generateDynamicAnswer(userQuery) {
     return "🦁 **Premier League:** Creada en 1992 en su formato moderno. El Manchester United encabeza los títulos con 13 Premier League, seguido por el Manchester City con 8 y el Chelsea con 5.";
   }
 
-  // 5. Para cualquier otra consulta de fútbol
-  const words = originalQuery.split(/\s+/).filter(w => w.length > 2);
-  const subjectStr = words.map(w => w.charAt(0).toUpperCase() + w.slice(1).toLowerCase()).join(' ');
-
-  return `⚽ **Análisis sobre ${subjectStr}:**\n\nEn el fútbol profesional, este aspecto es un elemento táctico e histórico fundamental. Influye directamente en la toma de decisiones dentro del campo de juego y en la estructura de los equipos. Si deseas conocer la historia completa y verdadera de un jugador en particular (como Messi, Ronaldo, Mbappé, Haaland, Vinícius, Pelé, Maradona, etc.), ¡escribe su nombre y te contaré su trayectoria!`;
+  // 5. Si la consulta no está relacionada con fútbol o no está en la base de datos
+  return "❌ Esa información no se encuentra en la base de datos de fútbol.\n\nPor favor, realiza una consulta relacionada con el fútbol (jugadores, equipos, la Copa del Mundo, la Champions League, récords o historia del deporte).";
 }
