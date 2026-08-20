@@ -1416,5 +1416,43 @@
       "golden boot premier",
       "distinción goleadores premier"
     ]
+  },
+  {
+    "id": 116,
+    "intent": "saludo_presentacion",
+    "pregunta": "Hola, ¿para qué sirves y en qué me puedes ayudar?",
+    "respuesta": "¡Hola! Soy FutbolAI, tu asistente virtual experto en fútbol. Estoy diseñado para resolver tus dudas sobre la historia de los Mundiales de la FIFA, récords históricos, estadísticas de torneos, datos de la Premier League, goleadores legendarios, directores técnicos y curiosidades del fútbol. ¿Qué te gustaría consultar hoy?",
+    "keywords": [
+      "hola",
+      "buenas",
+      "saludos",
+      "buenos dias",
+      "buenas tardes",
+      "buenas noches",
+      "para que sirves",
+      "que puedes hacer",
+      "quien eres",
+      "en que me puedes ayudar",
+      "que haces",
+      "ayuda",
+      "presentacion",
+      "como funcionas"
+    ]
+  },
+  {
+    "id": 117,
+    "intent": "que_puedes_hacer",
+    "pregunta": "¿Qué tipo de información o preguntas te puedo hacer?",
+    "respuesta": "Puedes preguntarme sobre campeones y finales de Mundiales, máximos goleadores (como Pelé, Messi, Klose), récords de partidos, estadios con mayor capacidad, directores técnicos ganadores y datos clave del fútbol internacional.",
+    "keywords": [
+      "que tipo de preguntas",
+      "que puedo preguntar",
+      "que sabes",
+      "temas",
+      "consultas",
+      "capacidades",
+      "que informacion tienes",
+      "de que podemos hablar"
+    ]
   }
 ]

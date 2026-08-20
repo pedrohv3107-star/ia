@@ -1,5 +1,5 @@
 import React from 'react';
-import { Bot, Trash2, Settings } from 'lucide-react';
+import { Bot, Trash2 } from 'lucide-react';
 
 export default function ChatPanelHeader({ onClear }) {
   return (
@@ -20,14 +20,11 @@ export default function ChatPanelHeader({ onClear }) {
       <div className="chat-panel-header-right">
         <button
           className="header-action-btn danger-hover"
-          title="Limpiar chat"
-          aria-label="Limpiar chat"
+          title="Vaciar chat"
+          aria-label="Vaciar chat"
           onClick={onClear}
         >
-          <Trash2 size={15} />
-        </button>
-        <button className="header-action-btn" title="Ajustes" aria-label="Ajustes">
-          <Settings size={15} />
+          <Trash2 size={16} />
         </button>
       </div>
     </div>

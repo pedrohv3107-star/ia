@@ -4,8 +4,6 @@ import './App.css';
 
 import qnaData from '../preguntas_respuestas.json';
 
-import Topbar            from './components/Topbar';
-import SidebarLeft       from './components/SidebarLeft';
 import ChatPanelHeader   from './components/ChatPanelHeader';
 import WelcomeScreen     from './components/WelcomeScreen';
 import MessageList       from './components/MessageList';
@@ -76,36 +74,27 @@ export default function App() {
   };
 
   return (
-    <>
-      {/* Top navigation bar */}
-      <Topbar />
+    <div className="app-layout">
+      {/* Central chat panel */}
+      <div className="chat-panel">
+        {/* Panel header */}
+        <ChatPanelHeader onClear={handleClear} />
 
-      {/* Main layout */}
-      <div className="app-layout">
-        {/* Left narrow icon sidebar */}
-        <SidebarLeft />
+        {/* Scrollable messages area */}
+        <div className="chat-messages-area">
+          {/* Welcome hero (always visible at the top like the screenshot) */}
+          <WelcomeScreen onChipClick={handleChipClick} />
 
-        {/* Central chat panel */}
-        <div className="chat-panel">
-          {/* Panel header */}
-          <ChatPanelHeader onClear={handleClear} />
-
-          {/* Scrollable messages area */}
-          <div className="chat-messages-area">
-            {/* Welcome hero (always visible at the top like the screenshot) */}
-            <WelcomeScreen onChipClick={handleChipClick} />
-
-            {/* Message thread */}
-            <MessageList messages={messages} qnaData={qnaData} />
-          </div>
-
-          {/* Input bar */}
-          <ChatInputBar onSend={handleSend} />
-
-          {/* Footer status */}
-          <ChatFooter />
+          {/* Message thread */}
+          <MessageList messages={messages} qnaData={qnaData} />
         </div>
+
+        {/* Input bar */}
+        <ChatInputBar onSend={handleSend} />
+
+        {/* Footer status */}
+        <ChatFooter />
       </div>
-    </>
+    </div>
   );
 }

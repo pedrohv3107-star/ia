@@ -1,15 +1,27 @@
 // src/components/WelcomeScreen.jsx
 import React from 'react';
-import { BarChart2, Shield } from 'lucide-react';
+import { Trophy, Flame, Sparkles, HelpCircle } from 'lucide-react';
 
 const suggestions = [
   {
-    icon: <BarChart2 size={14} />,
-    text: '¿Qué selección ha disputado más finales en la historia de los Mundiales?',
+    icon: <Trophy size={15} />,
+    colorClass: 'chip-gold',
+    text: '¿Qué selección ha disputado más finales en los Mundiales?',
   },
   {
-    icon: <Shield size={14} />,
+    icon: <Flame size={15} />,
+    colorClass: 'chip-emerald',
     text: '¿Cuál es el único país que ha jugado todas las Copas del Mundo?',
+  },
+  {
+    icon: <Sparkles size={15} />,
+    colorClass: 'chip-purple',
+    text: '¿Quién es el máximo goleador histórico de los Mundiales?',
+  },
+  {
+    icon: <HelpCircle size={15} />,
+    colorClass: 'chip-cyan',
+    text: '¿Para qué sirves y qué te puedo preguntar?',
   },
 ];
 
@@ -45,11 +57,11 @@ export default function WelcomeScreen({ onChipClick }) {
           {suggestions.map((s, i) => (
             <button
               key={i}
-              className="welcome-chip"
+              className={`welcome-chip ${s.colorClass || ''}`}
               onClick={() => onChipClick && onChipClick(s.text)}
             >
               <span className="chip-icon">{s.icon}</span>
-              {s.text}
+              <span>{s.text}</span>
             </button>
           ))}
         </div>
