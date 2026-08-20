@@ -1,0 +1,1420 @@
+[
+  {
+    "id": 1,
+    "intent": "mas_finales_disputadas",
+    "pregunta": "¿Qué selección ha disputado más finales en la historia de las Copas del Mundo?",
+    "respuesta": "La selección de Alemania, habiendo jugado 8 finales en total.",
+    "keywords": [
+      "selección",
+      "más finales",
+      "finales",
+      "copa del mundo",
+      "alemania",
+      "mundiales",
+      "disputado finales"
+    ]
+  },
+  {
+    "id": 2,
+    "intent": "todas_las_ediciones",
+    "pregunta": "¿Cuál es el único país que ha participado en todas las ediciones de la Copa Mundial de la FIFA?",
+    "respuesta": "Brasil, habiendo dicho presente en los 22 torneos disputados hasta la fecha.",
+    "keywords": [
+      "único país",
+      "todas las ediciones",
+      "participado",
+      "brasil",
+      "copa mundial",
+      "fifa",
+      "ediciones"
+    ]
+  },
+  {
+    "id": 3,
+    "intent": "mas_partidos_jugados",
+    "pregunta": "¿Qué jugador ostenta el récord de más partidos jugados en la historia de los Mundiales?",
+    "respuesta": "Lionel Messi, acumulando un total de 26 encuentros disputados en cinco ediciones.",
+    "keywords": [
+      "jugador",
+      "récord",
+      "más partidos",
+      "partidos jugados",
+      "historia de los mundiales",
+      "lionel messi",
+      "messi"
+    ]
+  },
+  {
+    "id": 4,
+    "intent": "mas_goles_una_edicion",
+    "pregunta": "¿Quién es el jugador que ha marcado más goles en una sola edición de una Copa del Mundo?",
+    "respuesta": "El francés Just Fontaine, quien anotó 13 goles en el Mundial de Suecia 1958.",
+    "keywords": [
+      "más goles",
+      "sola edición",
+      "una edición",
+      "copa del mundo",
+      "just fontaine",
+      "suecia 1958",
+      "goles edicion"
+    ]
+  },
+  {
+    "id": 5,
+    "intent": "la_mano_de_dios",
+    "pregunta": "¿Qué selección anotó el famoso gol conocido como \"La Mano de Dios\"?",
+    "respuesta": "La selección de Argentina, a través de Diego Armando Maradona frente a Inglaterra en el Mundial de México 1986.",
+    "keywords": [
+      "la mano de dios",
+      "mano de dios",
+      "argentina",
+      "maradona",
+      "diego armando maradona",
+      "inglaterra",
+      "méxico 1986"
+    ]
+  },
+  {
+    "id": 6,
+    "intent": "goleada_mas_abultada",
+    "pregunta": "¿Cuál ha sido la goleada más abultada en la historia de las fases finales de un Mundial?",
+    "respuesta": "El partido entre Hungría y El Salvador en el Mundial de España 1982, que finalizó con un marcador de 10-1 a favor de los húngaros.",
+    "keywords": [
+      "goleada",
+      "más abultada",
+      "mayor goleada",
+      "hungría",
+      "el salvador",
+      "españa 1982",
+      "10-1"
+    ]
+  },
+  {
+    "id": 7,
+    "intent": "dt_dos_copas_consecutivas",
+    "pregunta": "¿Quién fue el director técnico que ganó dos Copas del Mundo consecutivas?",
+    "respuesta": "El italiano Vittorio Pozzo, dirigiendo a la selección de Italia en los mundiales de 1934 y 1938.",
+    "keywords": [
+      "director técnico",
+      "entrenador",
+      "dos copas del mundo",
+      "consecutivas",
+      "vittorio pozzo",
+      "italia",
+      "1934",
+      "1938"
+    ]
+  },
+  {
+    "id": 8,
+    "intent": "mas_copas_del_mundo_jugador",
+    "pregunta": "¿Qué jugador ostenta el récord de haber ganado más Copas del Mundo en la cancha?",
+    "respuesta": "Pelé, habiendo sido campeón mundial con Brasil en tres ocasiones (1958, 1962 y 1970).",
+    "keywords": [
+      "ganado más copas",
+      "más mundiales ganados",
+      "pelé",
+      "brasil",
+      "tres ocasiones",
+      "campeón mundial"
+    ]
+  },
+  {
+    "id": 9,
+    "intent": "primera_vez_var",
+    "pregunta": "¿En qué edición de la Copa del Mundo se utilizó por primera vez la tecnología del VAR?",
+    "respuesta": "En la Copa Mundial de la FIFA Rusia 2018.",
+    "keywords": [
+      "var",
+      "tecnología var",
+      "primera vez",
+      "rusia 2018",
+      "arbitraje de video"
+    ]
+  },
+  {
+    "id": 10,
+    "intent": "maracanazo",
+    "pregunta": "¿Qué acontecimiento histórico se conoce como el \"Maracanazo\"?",
+    "respuesta": "El partido decisivo del Mundial de Brasil 1950, donde la selección de Uruguay derrotó a la anfitriona Brasil por 2-1 en el Estadio Maracaná ante más de 170,000 espectadores.",
+    "keywords": [
+      "maracanazo",
+      "uruguay",
+      "brasil 1950",
+      "estadio maracaná",
+      "1950",
+      "derrota brasil"
+    ]
+  },
+  {
+    "id": 11,
+    "intent": "gol_en_cinco_ediciones",
+    "pregunta": "¿Quién es el único futbolista que ha marcado gol en cinco ediciones distintas de la Copa del Mundo?",
+    "respuesta": "Cristiano Ronaldo, habiendo anotado en los mundiales de 2006, 2010, 2014, 2018 y 2022.",
+    "keywords": [
+      "gol en cinco ediciones",
+      "marcado gol",
+      "cinco mundiales",
+      "cristiano ronaldo",
+      "ronaldo",
+      "cr7"
+    ]
+  },
+  {
+    "id": 12,
+    "intent": "mas_minutos_sin_recibir_gol",
+    "pregunta": "¿Qué guardameta ostenta el récord de más minutos consecutivos sin recibir gol en la historia de los Mundiales?",
+    "respuesta": "El italiano Walter Zenga, quien mantuvo su portería imbatida durante 517 minutos en el Mundial de Italia 1990.",
+    "keywords": [
+      "guardameta",
+      "portero",
+      "minutos sin recibir gol",
+      "invicto",
+      "walter zenga",
+      "italia 1990",
+      "517 minutos"
+    ]
+  },
+  {
+    "id": 13,
+    "intent": "primera_edicion_32_selecciones",
+    "pregunta": "¿Cuál fue la primera Copa del Mundo en la que participaron 32 selecciones nacionales?",
+    "respuesta": "El Mundial de Francia 1998.",
+    "keywords": [
+      "32 selecciones",
+      "32 equipos",
+      "francia 1998",
+      "primera copa 32 selecciones"
+    ]
+  },
+  {
+    "id": 14,
+    "intent": "primera_seleccion_africana_semifinales",
+    "pregunta": "¿Qué selección africana fue la primera en lograr clasificarse para las semifinales de una Copa del Mundo?",
+    "respuesta": "La selección de Marruecos, durante el Mundial de Qatar 2022.",
+    "keywords": [
+      "selección africana",
+      "semifinales",
+      "marruecos",
+      "qatar 2022",
+      "áfrica semifinales"
+    ]
+  },
+  {
+    "id": 15,
+    "intent": "gol_del_siglo",
+    "pregunta": "¿Quién anotó el denominado \"Gol del Siglo\" tras eludir a seis jugadores rivales desde su propio campo?",
+    "respuesta": "Diego Armando Maradona, jugando para Argentina contra Inglaterra en el Mundial de México 1986.",
+    "keywords": [
+      "gol del siglo",
+      "maradona",
+      "diego maradona",
+      "eludir seis jugadores",
+      "argentina",
+      "inglaterra",
+      "méxico 1986"
+    ]
+  },
+  {
+    "id": 16,
+    "intent": "entrenador_mas_champions",
+    "pregunta": "¿Qué entrenador ha ganado más títulos de la UEFA Champions League?",
+    "respuesta": "Carlo Ancelotti, habiendo conquistado el torneo en 5 ocasiones (2 con el AC Milan y 3 con el Real Madrid).",
+    "keywords": [
+      "entrenador más champions",
+      "ganó más champions",
+      "carlo ancelotti",
+      "ancelotti",
+      "uefa champions league",
+      "títulos champions"
+    ]
+  },
+  {
+    "id": 17,
+    "intent": "primer_mundial_1930",
+    "pregunta": "¿Qué país organizó y ganó la primera Copa Mundial de la FIFA en 1930?",
+    "respuesta": "Uruguay, tras derrotar a Argentina en la final celebrada en Montevideo.",
+    "keywords": [
+      "primer mundial",
+      "1930",
+      "organizó y ganó",
+      "uruguay",
+      "montevideo",
+      "copa mundial 1930"
+    ]
+  },
+  {
+    "id": 18,
+    "intent": "maximo_goleador_historia",
+    "pregunta": "¿Quién es el máximo goleador en la historia del fútbol en partidos oficiales?",
+    "respuesta": "Cristiano Ronaldo, habiendo superado los 850 goles oficiales a lo largo de su carrera.",
+    "keywords": [
+      "máximo goleador historia",
+      "goles oficiales",
+      "cristiano ronaldo",
+      "ronaldo",
+      "máximo goleador fútbol",
+      "récord goles"
+    ]
+  },
+  {
+    "id": 19,
+    "intent": "mas_goles_ano_natural",
+    "pregunta": "¿Quién ostenta el récord de más goles anotados en un solo año natural?",
+    "respuesta": "Lionel Messi, quien convirtió 91 goles en el año 2012 entre el FC Barcelona y la selección de Argentina.",
+    "keywords": [
+      "más goles año natural",
+      "91 goles",
+      "lionel messi",
+      "messi",
+      "año 2012",
+      "barcelona",
+      "récord goles año"
+    ]
+  },
+  {
+    "id": 20,
+    "intent": "maximo_goleador_mundiales",
+    "pregunta": "¿Quién es el máximo goleador histórico de las Copas del Mundo de la FIFA?",
+    "respuesta": "El delantero alemán Miroslav Klose, con 16 goles marcados en cuatro mundiales.",
+    "keywords": [
+      "máximo goleador mundiales",
+      "máximo goleador copa del mundo",
+      "miroslav klose",
+      "klose",
+      "16 goles",
+      "alemania"
+    ]
+  },
+  {
+    "id": 21,
+    "intent": "maximo_asistidor_historia",
+    "pregunta": "¿Quién es el máximo asistidor registrado en la historia del fútbol profesional?",
+    "respuesta": "Lionel Messi, sumando más de 370 asistencias oficiales en clubes y selección.",
+    "keywords": [
+      "máximo asistidor",
+      "más asistencias historia",
+      "lionel messi",
+      "messi",
+      "asistencias oficiales"
+    ]
+  },
+  {
+    "id": 22,
+    "intent": "ultimo_balon_de_oro_antes_messi_ronaldo",
+    "pregunta": "¿Quién fue el último futbolista en ganar el Balón de Oro antes de la era de hegemonía de Messi y Cristiano Ronaldo?",
+    "respuesta": "El brasileño Kaká, en el año 2007 tras ganar la Champions League con el AC Milan.",
+    "keywords": [
+      "último balón de oro antes messi ronaldo",
+      "kaká",
+      "balón de oro 2007",
+      "ac milan"
+    ]
+  },
+  {
+    "id": 23,
+    "intent": "unico_portero_balon_de_oro",
+    "pregunta": "¿Qué guardameta ha sido el único en ganar el Balón de Oro en la historia?",
+    "respuesta": "Lev Yashin, conocido como la \"Araña Negra\", conquistó el galardón en 1963.",
+    "keywords": [
+      "único guardameta balón de oro",
+      "portero balón de oro",
+      "lev yashin",
+      "araña negra",
+      "1963"
+    ]
+  },
+  {
+    "id": 24,
+    "intent": "mas_asistencias_champions",
+    "pregunta": "¿Quién tiene el récord de más asistencias en la historia de la UEFA Champions League?",
+    "respuesta": "Cristiano Ronaldo, acumulando un total de 42 pases de gol en el torneo continental.",
+    "keywords": [
+      "más asistencias champions",
+      "cristiano ronaldo",
+      "ronaldo",
+      "asistencias uefa champions league",
+      "42 asistencias"
+    ]
+  },
+  {
+    "id": 25,
+    "intent": "balon_de_oro_mas_joven",
+    "pregunta": "¿Quién es el jugador más joven de la historia en ganar el Balón de Oro?",
+    "respuesta": "Ronaldo Nazário, quien obtuvo el premio en 1997 a los 21 años y 3 meses de edad.",
+    "keywords": [
+      "balón de oro más joven",
+      "jugador más joven balón de oro",
+      "ronaldo nazário",
+      "ronaldo fenómeno",
+      "1997"
+    ]
+  },
+  {
+    "id": 26,
+    "intent": "mas_asistencias_temporada_premier",
+    "pregunta": "¿Qué jugadores comparten el récord de más asistencias en una misma temporada de Premier League?",
+    "respuesta": "Thierry Henry (2002-03) y Kevin De Bruyne (2019-20), ambos empatados con 20 asistencias.",
+    "keywords": [
+      "más asistencias premier league",
+      "thierry henry",
+      "kevin de bruyne",
+      "20 asistencias",
+      "récord asistencias premier"
+    ]
+  },
+  {
+    "id": 27,
+    "intent": "mas_goles_tiro_libre",
+    "pregunta": "¿Quién es el jugador con más goles de tiro libre directo en la historia del fútbol?",
+    "respuesta": "Juninho Pernambucano, con un registro de 77 goles anotados por esta vía.",
+    "keywords": [
+      "más goles tiro libre",
+      "tiro libre directo",
+      "juninho pernambucano",
+      "juninho",
+      "77 goles tiro libre"
+    ]
+  },
+  {
+    "id": 28,
+    "intent": "bota_de_oro_2022_2023_haaland",
+    "pregunta": "¿Quién ganó la Bota de Oro europea en la temporada 2022-2023 estableciendo el récord de goles en Premier League?",
+    "respuesta": "Erling Haaland, tras convertir 36 goles en la liga inglesa con el Manchester City.",
+    "keywords": [
+      "bota de oro 2022 2023",
+      "erling haaland",
+      "haaland",
+      "36 goles premier",
+      "manchester city"
+    ]
+  },
+  {
+    "id": 29,
+    "intent": "hat_trick_mas_rapido_premier",
+    "pregunta": "¿Qué futbolista ostenta el récord del hat-trick (triplete) más rápido en la historia de la Premier League?",
+    "respuesta": "Sadio Mané, quien anotó 3 goles en solo 2 minutos y 56 segundos jugando para el Southampton en 2015.",
+    "keywords": [
+      "hat trick más rápido",
+      "triplete más rápido premier",
+      "sadio mané",
+      "mané",
+      "southampton 2015"
+    ]
+  },
+  {
+    "id": 30,
+    "intent": "mas_titulos_colectivos_historia",
+    "pregunta": "¿Quién es el jugador con más títulos colectivos ganados en la historia del fútbol?",
+    "respuesta": "Lionel Messi, habiendo superado los 44 trofeos oficiales en su trayectoria.",
+    "keywords": [
+      "más títulos colectivos",
+      "jugador más trofeos",
+      "lionel messi",
+      "messi",
+      "44 trofeos"
+    ]
+  },
+  {
+    "id": 31,
+    "intent": "premio_yashin_qatar_2022",
+    "pregunta": "¿Qué guardameta ganó el Premio Yashin / Guante de Oro en el Mundial de Qatar 2022?",
+    "respuesta": "Emiliano \"Dibu\" Martínez, portero titular de la selección de Argentina.",
+    "keywords": [
+      "premio yashin qatar 2022",
+      "guante de oro qatar 2022",
+      "dibu martínez",
+      "emiliano martínez",
+      "portero argentina"
+    ]
+  },
+  {
+    "id": 32,
+    "intent": "primer_golden_boy",
+    "pregunta": "¿Quién fue el primer ganador del premio Golden Boy al mejor jugador joven de Europa en 2003?",
+    "respuesta": "El centrocampista neerlandés Rafael van der Vaart, mientras militaba en el Ajax.",
+    "keywords": [
+      "primer golden boy",
+      "golden boy 2003",
+      "rafael van der vaart",
+      "van der vaart",
+      "ajax"
+    ]
+  },
+  {
+    "id": 33,
+    "intent": "jugador_mas_veterano_gol_mundial",
+    "pregunta": "¿Quién es el jugador más veterano en anotar un gol en una Copa del Mundo?",
+    "respuesta": "Roger Milla de Camerún, quien marcó con 42 años y 39 días en el Mundial de Estados Unidos 1994.",
+    "keywords": [
+      "jugador más veterano gol mundial",
+      "gol más viejo mundial",
+      "roger milla",
+      "camerún",
+      "usa 1994"
+    ]
+  },
+  {
+    "id": 34,
+    "intent": "mas_asistencias_mundial_2014",
+    "pregunta": "¿Qué jugador dio más asistencias en la Copa Mundial de la FIFA 2014?",
+    "respuesta": "Toni Kroos, liderando la competición con 4 pases de gol para la selección campeona de Alemania.",
+    "keywords": [
+      "más asistencias mundial 2014",
+      "toni kroos",
+      "kroos",
+      "alemania 2014"
+    ]
+  },
+  {
+    "id": 35,
+    "intent": "mas_goles_penalti_historia",
+    "pregunta": "¿Quién ostenta el récord de más goles anotados de penalti en la historia del fútbol profesional?",
+    "respuesta": "Cristiano Ronaldo, superando los 160 goles ejecutados desde la pena máxima.",
+    "keywords": [
+      "más goles penalti",
+      "penalties ronaldo",
+      "cristiano ronaldo",
+      "ronaldo",
+      "goles pena máxima"
+    ]
+  },
+  {
+    "id": 36,
+    "intent": "primer_premio_puskas",
+    "pregunta": "¿Qué futbolista ganó el Premio Puskás al mejor gol del año en su primera edición (2009)?",
+    "respuesta": "Cristiano Ronaldo, por un potente disparo desde fuera del área jugando con el Manchester United ante el Porto.",
+    "keywords": [
+      "primer premio puskás",
+      "puskas 2009",
+      "cristiano ronaldo",
+      "manchester united porto"
+    ]
+  },
+  {
+    "id": 37,
+    "intent": "defensor_the_best_balon_de_oro",
+    "pregunta": "¿Quién ha sido el único defensor en ganar el premio The Best de la FIFA?",
+    "respuesta": "Virgil van Dijk estuvo entre los finalistas, pero el premio como tal en categoría masculina lo han ganado atacantes y mediocampistas; sin embargo, en el Balón de Oro, Fabio Cannavaro fue el último defensor puro en ganarlo en 2006.",
+    "keywords": [
+      "defensor the best fifa",
+      "fabio cannavaro",
+      "virgil van dijk",
+      "defensor balón de oro"
+    ]
+  },
+  {
+    "id": 38,
+    "intent": "maxima_goleadora_futbol_femenino_selecciones",
+    "pregunta": "¿Quién es la máxima goleadora histórica del fútbol internacional a nivel de selecciones?",
+    "respuesta": "La canadiense Christine Sinclair, con 190 goles oficiales vistiendo la camiseta de su país.",
+    "keywords": [
+      "máxima goleadora internacional",
+      "fútbol femenino",
+      "christine sinclair",
+      "canadá",
+      "190 goles"
+    ]
+  },
+  {
+    "id": 39,
+    "intent": "defensor_mas_goleador_historia",
+    "pregunta": "¿Qué defensor tiene el récord de más goles anotados en la historia del fútbol?",
+    "respuesta": "El neerlandés Ronald Koeman, quien marcó 253 goles a lo largo de su carrera jugando como central y pivote.",
+    "keywords": [
+      "defensor más goleador",
+      "más goles defensa",
+      "ronald koeman",
+      "koeman",
+      "253 goles"
+    ]
+  },
+  {
+    "id": 40,
+    "intent": "invencibles_premier_league",
+    "pregunta": "¿Qué equipo completó una temporada entera de la Premier League sin perder un solo partido?",
+    "respuesta": "El Arsenal en la temporada 2003-04, ganándose el apodo de \"Los Invencibles\".",
+    "keywords": [
+      "sin perder ningún partido",
+      "los invencibles",
+      "arsenal 2003-04",
+      "temporada invicta premier"
+    ]
+  },
+  {
+    "id": 41,
+    "intent": "gol_mas_rapido_mundial",
+    "pregunta": "¿Cuál es el gol más rápido anotado en la historia de la Copa Mundial de la FIFA?",
+    "respuesta": "El del turco Hakan Şükür, quien marcó a los 10.8 segundos de iniciado el partido contra Corea del Sur en 2002.",
+    "keywords": [
+      "gol más rápido mundial",
+      "hakan sukur",
+      "10.8 segundos",
+      "corea del sur 2002"
+    ]
+  },
+  {
+    "id": 42,
+    "intent": "cinco_goles_mismo_partido_mundial",
+    "pregunta": "¿Qué jugador anotó 5 goles en un mismo partido de Copa del Mundo?",
+    "respuesta": "El ruso Oleg Salenko, durante la victoria de Rusia 6-1 contra Camerún en el Mundial de Estados Unidos 1994.",
+    "keywords": [
+      "5 goles mismo partido mundial",
+      "oleg salenko",
+      "rusia camerún 1994",
+      "récord 5 goles"
+    ]
+  },
+  {
+    "id": 43,
+    "intent": "mas_vallas_invictas_premier",
+    "pregunta": "¿Qué guardameta tiene el récord de más porterías invictas en la historia de la Premier League?",
+    "respuesta": "Petr Čech, con un registro de 202 partidos sin recibir gol durante su paso por el Chelsea y el Arsenal.",
+    "keywords": [
+      "más porterías invictas premier",
+      "petr cech",
+      "cech",
+      "202 partidos invicto",
+      "valla invicta premier"
+    ]
+  },
+  {
+    "id": 44,
+    "intent": "traspaso_mas_caro_historia",
+    "pregunta": "¿Cuál ha sido el traspaso más caro en la historia del fútbol mundial?",
+    "respuesta": "El fichaje de Neymar Jr. del FC Barcelona al Paris Saint-Germain en 2017, por un valor de 222 millones de euros.",
+    "keywords": [
+      "traspaso más caro",
+      "fichaje más caro",
+      "neymar",
+      "222 millones",
+      "barcelona psg 2017"
+    ]
+  },
+  {
+    "id": 45,
+    "intent": "paises_bajos_tres_finales_perdidas",
+    "pregunta": "¿Qué selección nacional ha disputado tres finales de la Copa del Mundo sin haber ganado ninguna?",
+    "respuesta": "La selección de los Países Bajos (en los mundiales de 1974, 1978 y 2010).",
+    "keywords": [
+      "tres finales sin ganar",
+      "países bajos",
+      "holanda",
+      "finales mundiales 1974 1978 2010"
+    ]
+  },
+  {
+    "id": 46,
+    "intent": "estadio_bolivia_la_paz",
+    "pregunta": "¿En qué estadio situado a más de 3,600 metros sobre el nivel del mar juega la selección de Bolivia?",
+    "respuesta": "El Estadio Hernando Siles, ubicado en la ciudad de La Paz.",
+    "keywords": [
+      "estadio bolivia",
+      "3600 metros",
+      "estadio hernando siles",
+      "la paz"
+    ]
+  },
+  {
+    "id": 47,
+    "intent": "sorpresa_eurocopa_2004",
+    "pregunta": "¿Qué selección dio la gran sorpresa al ganar la Eurocopa 2004 contra todo pronóstico?",
+    "respuesta": "La selección de Grecia, tras vencer a la anfitriona Portugal en la final.",
+    "keywords": [
+      "ganó eurocopa 2004",
+      "sorpresa eurocopa",
+      "grecia eurocopa 2004",
+      "portugal grecia"
+    ]
+  },
+  {
+    "id": 48,
+    "intent": "inventor_tarjetas_amarilla_roja",
+    "pregunta": "¿Quién ideó el sistema de tarjetas amarilla y roja utilizado en el arbitraje?",
+    "respuesta": "El árbitro británico Ken Aston, inspirándose en los colores del semáforo tras los problemas de comunicación en el Mundial de 1966.",
+    "keywords": [
+      "tarjetas amarilla y roja",
+      "ken aston",
+      "inventor tarjetas arbitraje",
+      "semáforo tarjetas"
+    ]
+  },
+  {
+    "id": 49,
+    "intent": "sextete_bayern_barcelona",
+    "pregunta": "¿Qué club es el único en haber ganado un \"Sextete\" (6 títulos en una temporada) además del FC Barcelona?",
+    "respuesta": "El Bayern Múnich, bajo la dirección de Hansi Flick durante el ciclo 2019-2020.",
+    "keywords": [
+      "sextete",
+      "6 títulos una temporada",
+      "bayern múnich",
+      "fc barcelona",
+      "hansi flick"
+    ]
+  },
+  {
+    "id": 50,
+    "intent": "expulsion_mas_rapida_mundial",
+    "pregunta": "¿Qué jugador ostenta el récord de la expulsión más rápida en un partido de la Copa del Mundo?",
+    "respuesta": "El uruguayo José Batista, quien vio la tarjeta roja a los 56 segundos de juego ante Escocia en el Mundial de México 1986.",
+    "keywords": [
+      "expulsión más rápida mundial",
+      "tarjeta roja más rápida",
+      "josé batista",
+      "56 segundos",
+      "méxico 1986"
+    ]
+  },
+  {
+    "id": 51,
+    "intent": "estadio_athletic_bilbao",
+    "pregunta": "¿En qué estadio juega el Athletic Club de Bilbao?",
+    "respuesta": "En el Estadio de San Mamés.",
+    "keywords": [
+      "estadio athletic bilbao",
+      "san mamés",
+      "catedral san mames",
+      "estadio bilbao"
+    ]
+  },
+  {
+    "id": 52,
+    "intent": "apodo_real_betis",
+    "pregunta": "¿Qué apodo recibe el Real Betis Balompié?",
+    "respuesta": "Son conocidos como los \"Verdiblancos\" o \"Heliopolitanos\".",
+    "keywords": [
+      "apodo real betis",
+      "verdiblancos",
+      "heliopolitanos",
+      "betis apodo"
+    ]
+  },
+  {
+    "id": 53,
+    "intent": "clasico_rival_sevilla",
+    "pregunta": "¿Cuál es el clásico rival del Sevilla FC?",
+    "respuesta": "El Real Betis Balompié en el llamado \"Derbi Sevillano\".",
+    "keywords": [
+      "rival sevilla",
+      "derbi sevillano",
+      "real betis",
+      "clasico sevilla"
+    ]
+  },
+  {
+    "id": 54,
+    "intent": "apodo_valencia_los_che",
+    "pregunta": "¿Qué club español es famoso por su apodo \"Los Che\"?",
+    "respuesta": "El Valencia CF.",
+    "keywords": [
+      "los che",
+      "apodo valencia",
+      "valencia cf",
+      "los ches"
+    ]
+  },
+  {
+    "id": 55,
+    "intent": "superclasico_argentino",
+    "pregunta": "¿Cuál es el superclásico del fútbol argentino?",
+    "respuesta": "El partido disputado entre el Club Atlético Boca Juniors y el Club Atlético River Plate.",
+    "keywords": [
+      "superclásico argentino",
+      "boca vs river",
+      "boca juniors",
+      "river plate",
+      "clásico argentina"
+    ]
+  },
+  {
+    "id": 56,
+    "intent": "cinco_grandes_futbol_argentino",
+    "pregunta": "¿Qué equipos forman el grupo denominado \"Los Cinco Grandes\" del fútbol argentino?",
+    "respuesta": "Boca Juniors, River Plate, Racing Club, Independiente y San Lorenzo de Almagro.",
+    "keywords": [
+      "los cinco grandes",
+      "cinco grandes argentina",
+      "boca river racing independiente san lorenzo"
+    ]
+  },
+  {
+    "id": 57,
+    "intent": "mas_titulos_internacionales_argentina",
+    "pregunta": "¿Cuál es el club con más títulos internacionales conquistados en el fútbol argentino?",
+    "respuesta": "Boca Juniors, con 18 trofeos internacionales oficiales.",
+    "keywords": [
+      "más títulos internacionales argentina",
+      "boca juniors",
+      "18 trofeos internacionales",
+      "copas internacionales boca"
+    ]
+  },
+  {
+    "id": 58,
+    "intent": "maximo_goleador_futbol_argentino",
+    "pregunta": "¿Qué jugador ostenta el récord de más goles anotados en la historia del fútbol profesional argentino?",
+    "respuesta": "Arsenio Erico, leyenda de Independiente, con 295 goles en el campeonato nacional.",
+    "keywords": [
+      "máximo goleador fútbol argentino",
+      "arsenio erico",
+      "295 goles",
+      "independiente récord goles"
+    ]
+  },
+  {
+    "id": 59,
+    "intent": "clasico_de_avellaneda",
+    "pregunta": "¿Cómo se le conoce al clásico de la ciudad de Avellaneda?",
+    "respuesta": "El \"Clásico de Avellaneda\", disputado entre Independiente y Racing Club.",
+    "keywords": [
+      "clásico de avellaneda",
+      "independiente vs racing",
+      "avellaneda",
+      "derbi avellaneda"
+    ]
+  },
+  {
+    "id": 60,
+    "intent": "campeon_copa_liga_2023_argentina",
+    "pregunta": "¿Qué equipo ganó la Copa de la Liga Profesional en la temporada 2023 tras vencer a Platense en la final?",
+    "respuesta": "Rosario Central.",
+    "keywords": [
+      "copa de la liga 2023",
+      "rosario central",
+      "platense final",
+      "campeón argentina 2023"
+    ]
+  },
+  {
+    "id": 61,
+    "intent": "inicio_profesionalismo_argentino",
+    "pregunta": "¿En qué año se instauró el profesionalismo en el fútbol argentino?",
+    "respuesta": "En el año 1931.",
+    "keywords": [
+      "profesionalismo fútbol argentino",
+      "año 1931",
+      "inicio profesionalismo argentina"
+    ]
+  },
+  {
+    "id": 62,
+    "intent": "apodo_estudiantes_de_la_plata",
+    "pregunta": "¿Qué club es apodado \"El Pincha\" o \"Los Pincharratas\"?",
+    "respuesta": "Estudiantes de La Plata.",
+    "keywords": [
+      "el pincha",
+      "los pincharratas",
+      "estudiantes de la plata",
+      "apodo estudiantes"
+    ]
+  },
+  {
+    "id": 63,
+    "intent": "estadio_el_cilindro_racing",
+    "pregunta": "¿Cuál es el estadio del fútbol argentino conocido coloquialmente como \"El Cilindro\"?",
+    "respuesta": "El Estadio Presidente Perón, casa de Racing Club.",
+    "keywords": [
+      "el cilindro",
+      "estadio presidente perón",
+      "estadio racing",
+      "el cilindro de avellaneda"
+    ]
+  },
+  {
+    "id": 64,
+    "intent": "clasico_rosarino",
+    "pregunta": "¿Cómo se le conoce al derbi que enfrenta a Rosario Central contra Newell's Old Boys?",
+    "respuesta": "El \"Clásico Rosarino\".",
+    "keywords": [
+      "clásico rosarino",
+      "rosario central vs newells",
+      "derbi rosario"
+    ]
+  },
+  {
+    "id": 65,
+    "intent": "mas_partidos_invicto_futbol_argentino",
+    "pregunta": "¿Qué equipo ostenta el récord de permanecer invicto durante más partidos consecutivos en el fútbol argentino profesional?",
+    "respuesta": "Boca Juniors, con una racha de 40 partidos invicto lograda entre 1998 y 1999 bajo la dirección técnica de Carlos Bianchi.",
+    "keywords": [
+      "récord invicto fútbol argentino",
+      "boca 40 partidos invicto",
+      "carlos bianchi",
+      "más partidos invicto argentina"
+    ]
+  },
+  {
+    "id": 66,
+    "intent": "apodo_barracas_central",
+    "pregunta": "¿Qué club del fútbol argentino es apodado \"El Guapo\"?",
+    "respuesta": "Barracas Central.",
+    "keywords": [
+      "el guapo",
+      "barracas central",
+      "apodo barracas central"
+    ]
+  },
+  {
+    "id": 67,
+    "intent": "clasico_porteno_huracan_san_lorenzo",
+    "pregunta": "¿Qué equipo es el clásico rival de Huracán en el famoso \"Clásico Porteño\"?",
+    "respuesta": "San Lorenzo de Almagro.",
+    "keywords": [
+      "clásico porteño",
+      "rival huracán",
+      "san lorenzo vs huracán",
+      "derbi porteño"
+    ]
+  },
+  {
+    "id": 68,
+    "intent": "supercopa_argentina",
+    "pregunta": "¿Cómo se llama el trofeo que disputan anualmente el campeón de la Liga y el campeón de la Copa Argentina?",
+    "respuesta": "La Supercopa Argentina.",
+    "keywords": [
+      "supercopa argentina",
+      "campeón liga vs campeón copa",
+      "trofeo supercopa"
+    ]
+  },
+  {
+    "id": 69,
+    "intent": "primer_campeon_era_profesional_argentina",
+    "pregunta": "¿Qué club fue el primer campeón de la Era Profesional del fútbol argentino en 1931?",
+    "respuesta": "Boca Juniors.",
+    "keywords": [
+      "primer campeón era profesional argentina",
+      "1931 campeón",
+      "boca juniors 1931"
+    ]
+  },
+  {
+    "id": 70,
+    "intent": "estadio_tottenham_hotspur",
+    "pregunta": "¿Cómo se llama el estadio del Tottenham Hotspur?",
+    "respuesta": "Tottenham Hotspur Stadium.",
+    "keywords": [
+      "estadio tottenham",
+      "tottenham hotspur stadium",
+      "cancha tottenham"
+    ]
+  },
+  {
+    "id": 71,
+    "intent": "mascota_leon_villa_park_aston_villa",
+    "pregunta": "¿Qué club inglés tiene como mascota un león y juega en Villa Park?",
+    "respuesta": "El Aston Villa.",
+    "keywords": [
+      "villa park",
+      "aston villa",
+      "mascota león",
+      "club inglés villa park"
+    ]
+  },
+  {
+    "id": 72,
+    "intent": "apodo_newcastle_the_magpies",
+    "pregunta": "¿Qué equipo inglés es apodado \"The Magpies\" (Las Urracas)?",
+    "respuesta": "El Newcastle United.",
+    "keywords": [
+      "the magpies",
+      "las urracas",
+      "newcastle united",
+      "apodo newcastle"
+    ]
+  },
+  {
+    "id": 73,
+    "intent": "ciudad_everton_fc",
+    "pregunta": "¿De qué ciudad de Inglaterra es el Everton FC?",
+    "respuesta": "De la ciudad de Liverpool.",
+    "keywords": [
+      "everton ciudad",
+      "everton fc",
+      "liverpool inglaterra"
+    ]
+  },
+  {
+    "id": 74,
+    "intent": "derby_della_capitale",
+    "pregunta": "¿Cómo se le conoce al clásico entre la Roma y la Lazio?",
+    "respuesta": "El \"Derby della Capitale\".",
+    "keywords": [
+      "derby della capitale",
+      "roma vs lazio",
+      "clásico roma lazio"
+    ]
+  },
+  {
+    "id": 75,
+    "intent": "estadio_diego_armando_maradona_napoli",
+    "pregunta": "¿Qué club italiano juega en el Stadio Diego Armando Maradona?",
+    "respuesta": "El SSC Napoli.",
+    "keywords": [
+      "stadio diego armando maradona",
+      "napoli estadio",
+      "ssc napoli"
+    ]
+  },
+  {
+    "id": 76,
+    "intent": "apodo_atalanta_la_dea",
+    "pregunta": "¿Qué equipo de Bérgamo es conocido como \"La Dea\"?",
+    "respuesta": "El Atalanta BC.",
+    "keywords": [
+      "la dea",
+      "atalanta",
+      "equipo bérgamo",
+      "apodo atalanta"
+    ]
+  },
+  {
+    "id": 77,
+    "intent": "apodo_bayer_leverkusen",
+    "pregunta": "¿Qué club alemán es conocido como \"Die Werkself\" (El Equipo de la Fábrica)?",
+    "respuesta": "El Bayer 04 Leverkusen.",
+    "keywords": [
+      "die werkself",
+      "equipo de la fábrica",
+      "bayer leverkusen",
+      "leverkusen"
+    ]
+  },
+  {
+    "id": 78,
+    "intent": "mas_titulos_eredivisie",
+    "pregunta": "¿Cuál es el equipo con más títulos de la Eredivisie en los Países Bajos?",
+    "respuesta": "El AFC Ajax.",
+    "keywords": [
+      "más títulos eredivisie",
+      "afc ajax",
+      "ajax",
+      "países bajos campeón"
+    ]
+  },
+  {
+    "id": 79,
+    "intent": "estadio_olympiacos",
+    "pregunta": "¿Qué club griego juega en el estadio Georgios Karaiskakis?",
+    "respuesta": "El Olympiacos FC.",
+    "keywords": [
+      "georgios karaiskakis",
+      "olympiacos",
+      "estadio olympiacos",
+      "club griego"
+    ]
+  },
+  {
+    "id": 80,
+    "intent": "rival_glasgow_celtic",
+    "pregunta": "¿Qué equipo de Escocia comparte la ciudad de Glasgow con el Celtic?",
+    "respuesta": "El Rangers FC.",
+    "keywords": [
+      "rangers fc",
+      "glasgow rangers",
+      "celtic vs rangers",
+      "escocia glasgow"
+    ]
+  },
+  {
+    "id": 81,
+    "intent": "shakhtar_donetsk_copa_uefa_2009",
+    "pregunta": "¿Qué club de Ucrania ha ganado la Copa de la UEFA en 2009?",
+    "respuesta": "El Shakhtar Donetsk.",
+    "keywords": [
+      "shakhtar donetsk",
+      "copa de la uefa 2009",
+      "club ucrania"
+    ]
+  },
+  {
+    "id": 82,
+    "intent": "apodo_san_lorenzo_el_ciclon",
+    "pregunta": "¿Qué club argentino es apodado \"El Ciclón\"?",
+    "respuesta": "El Club Atlético San Lorenzo de Almagro.",
+    "keywords": [
+      "el ciclón",
+      "san lorenzo",
+      "apodo san lorenzo"
+    ]
+  },
+  {
+    "id": 83,
+    "intent": "apodo_racing_la_academia",
+    "pregunta": "¿Qué equipo argentino de Avellaneda es conocido como \"La Academia\"?",
+    "respuesta": "El Racing Club.",
+    "keywords": [
+      "la academia",
+      "racing club",
+      "apodo racing"
+    ]
+  },
+  {
+    "id": 84,
+    "intent": "internacional_porto_alegre_beira_rio",
+    "pregunta": "¿En qué ciudad de Brasil juega el SC Internacional?",
+    "respuesta": "En Porto Alegre, en el Estadio Beira-Rio.",
+    "keywords": [
+      "sc internacional",
+      "porto alegre",
+      "estadio beira-rio",
+      "internacional brasil"
+    ]
+  },
+  {
+    "id": 85,
+    "intent": "apodo_corinthians_o_timao",
+    "pregunta": "¿Qué club brasileño es famoso por su apodo \"O Timão\"?",
+    "respuesta": "El Sport Club Corinthians Paulista.",
+    "keywords": [
+      "o timao",
+      "corinthians",
+      "apodo corinthians",
+      "brasil timao"
+    ]
+  },
+  {
+    "id": 86,
+    "intent": "clasico_rival_penarol",
+    "pregunta": "¿Qué club uruguayo es el clásico rival de Peñarol?",
+    "respuesta": "El Club Nacional de Football.",
+    "keywords": [
+      "rival peñarol",
+      "nacional de uruguay",
+      "clásico uruguayo",
+      "nacional vs peñarol"
+    ]
+  },
+  {
+    "id": 87,
+    "intent": "apodo_santa_fe_expreso_rojo",
+    "pregunta": "¿Qué equipo colombiano es conocido como \"El Expreso Rojo\"?",
+    "respuesta": "El Independiente Santa Fe.",
+    "keywords": [
+      "el expreso rojo",
+      "independiente santa fe",
+      "santa fe colombia"
+    ]
+  },
+  {
+    "id": 88,
+    "intent": "mas_titulos_liga_chile",
+    "pregunta": "¿Cuál es el club con más títulos de liga en la primera división de Chile?",
+    "respuesta": "El Club Social y Deportivo Colo-Colo.",
+    "keywords": [
+      "más títulos liga chile",
+      "colo colo",
+      "colo-colo",
+      "campeón chile"
+    ]
+  },
+  {
+    "id": 89,
+    "intent": "apodo_alianza_lima_blanquiazules",
+    "pregunta": "¿Qué club peruano es apodado \"Los Blanquiazules\"?",
+    "respuesta": "El Club Alianza Lima.",
+    "keywords": [
+      "los blanquiazules",
+      "alianza lima",
+      "apodo alianza lima"
+    ]
+  },
+  {
+    "id": 90,
+    "intent": "apodo_barcelona_guayaquil_idolo_astillero",
+    "pregunta": "¿Qué equipo ecuatoriano es conocido como \"El Ídolo del Astillero\"?",
+    "respuesta": "El Barcelona Sporting Club de Guayaquil.",
+    "keywords": [
+      "el ídolo del astillero",
+      "barcelona de guayaquil",
+      "barcelona ecuador"
+    ]
+  },
+  {
+    "id": 91,
+    "intent": "apodo_libertad_el_gumarelo",
+    "pregunta": "¿Qué club paraguayo es conocido como \"El Gumarelo\"?",
+    "respuesta": "El Club Libertad.",
+    "keywords": [
+      "el gumarelo",
+      "club libertad",
+      "libertad paraguay"
+    ]
+  },
+  {
+    "id": 92,
+    "intent": "apodo_cruz_azul_maquina_cementera",
+    "pregunta": "¿Qué equipo mexicano es apodado \"La Máquina Cementera\"?",
+    "respuesta": "El Cruz Azul.",
+    "keywords": [
+      "la máquina cementera",
+      "cruz azul",
+      "apodo cruz azul"
+    ]
+  },
+  {
+    "id": 93,
+    "intent": "estadio_tigres_el_volcan",
+    "pregunta": "¿Qué club mexicano juega en el Estadio Universitario \"El Volcán\"?",
+    "respuesta": "Los Tigres de la UANL.",
+    "keywords": [
+      "el volcán",
+      "estadio universitario",
+      "tigres uanl",
+      "tigres méxico"
+    ]
+  },
+  {
+    "id": 94,
+    "intent": "apodo_olimpia_honduras_el_leon",
+    "pregunta": "¿Qué equipo de Honduras es apodado \"El León\" y es el más ganador de su país?",
+    "respuesta": "El Club Deportivo Olimpia.",
+    "keywords": [
+      "el león honduras",
+      "club deportivo olimpia",
+      "olimpia honduras"
+    ]
+  },
+  {
+    "id": 95,
+    "intent": "rival_saprissa_alajuelense",
+    "pregunta": "¿Qué club de Costa Rica es el clásico rival del Deportivo Saprissa?",
+    "respuesta": "La Liga Deportiva Alajuelense.",
+    "keywords": [
+      "rival saprissa",
+      "alajuelense",
+      "liga deportiva alajuelense",
+      "clásico costa rica"
+    ]
+  },
+  {
+    "id": 96,
+    "intent": "equipo_mls_seattle",
+    "pregunta": "¿Qué equipo de la MLS en Estados Unidos juega en la ciudad de Seattle?",
+    "respuesta": "El Seattle Sounders FC.",
+    "keywords": [
+      "seattle mls",
+      "seattle sounders fc",
+      "equipo seattle"
+    ]
+  },
+  {
+    "id": 97,
+    "intent": "mamelodi_sundowns_the_brazilians",
+    "pregunta": "¿Qué club de Sudáfrica es conocido como \"The Brazilians\" por sus colores de uniforme?",
+    "respuesta": "El Mamelodi Sundowns.",
+    "keywords": [
+      "the brazilians sudáfrica",
+      "mamelodi sundowns",
+      "club sudáfrica"
+    ]
+  },
+  {
+    "id": 98,
+    "intent": "jeonbuk_hyundai_motors_afc",
+    "pregunta": "¿Qué equipo de Corea del Sur ha ganado múltiples veces la Liga de Campeones de la AFC?",
+    "respuesta": "El Jeonbuk Hyundai Motors.",
+    "keywords": [
+      "jeonbuk hyundai motors",
+      "corea del sur afc",
+      "champions afc"
+    ]
+  },
+  {
+    "id": 99,
+    "intent": "mas_exitoso_a_league_sydney_fc",
+    "pregunta": "¿Qué club de Australia es el más exitoso de la A-League?",
+    "respuesta": "El Sydney FC.",
+    "keywords": [
+      "sydney fc",
+      "más exitoso a-league",
+      "fútbol australia"
+    ]
+  },
+  {
+    "id": 100,
+    "intent": "esperance_de_tunis_sangre_y_oro",
+    "pregunta": "¿Qué club de Túnez es famoso por sus colores rojo y amarillo y apodado \"Sangre y Oro\"?",
+    "respuesta": "El Espérance Sportive de Tunis.",
+    "keywords": [
+      "sangre y oro túnez",
+      "espérance de tunis",
+      "club túnez"
+    ]
+  },
+  {
+    "id": 101,
+    "intent": "derby_norte_de_londres",
+    "pregunta": "¿Cuál es el derbi más antiguo de la Premier League y del fútbol londinense?",
+    "respuesta": "El \"Derby del Norte de Londres\", que enfrenta al Arsenal contra el Tottenham Hotspur.",
+    "keywords": [
+      "derby del norte de londres",
+      "arsenal vs tottenham",
+      "derbi londres más antiguo"
+    ]
+  },
+  {
+    "id": 102,
+    "intent": "maximo_goleador_premier_league",
+    "pregunta": "¿Qué jugador ostenta el récord histórico de más goles anotados en la Premier League?",
+    "respuesta": "Alan Shearer, con un registro de 260 goles convertidos entre el Blackburn Rovers y el Newcastle United.",
+    "keywords": [
+      "máximo goleador premier league",
+      "alan shearer",
+      "260 goles premier",
+      "shearer"
+    ]
+  },
+  {
+    "id": 103,
+    "intent": "mas_titulos_premier_league",
+    "pregunta": "¿Qué club ha conquistado más títulos de liga desde la creación del formato Premier League en 1992?",
+    "respuesta": "El Manchester United, habiendo ganado el torneo en 13 ocasiones bajo la dirección de Sir Alex Ferguson.",
+    "keywords": [
+      "más títulos premier league",
+      "manchester united",
+      "13 títulos premier",
+      "alex ferguson"
+    ]
+  },
+  {
+    "id": 104,
+    "intent": "maximo_asistidor_premier_league",
+    "pregunta": "¿Quién es el futbolista con más asistencias repartidas en la historia de la Premier League?",
+    "respuesta": "Ryan Giggs, registrando un récord de 162 pases de gol a lo largo de su carrera en el Manchester United.",
+    "keywords": [
+      "máximo asistidor premier league",
+      "ryan giggs",
+      "162 asistencias premier",
+      "giggs"
+    ]
+  },
+  {
+    "id": 105,
+    "intent": "mas_puntos_temporada_premier_los_centuriones",
+    "pregunta": "¿Qué equipo logró el récord de más puntos sumados en una sola temporada de Premier League?",
+    "respuesta": "El Manchester City en la temporada 2017-18, alcanzando los 100 puntos y ganándose el apodo de \"Los Centuriones\".",
+    "keywords": [
+      "100 puntos premier",
+      "manchester city 100 puntos",
+      "los centuriones",
+      "récord puntos premier"
+    ]
+  },
+  {
+    "id": 106,
+    "intent": "mas_porterias_imbatidas_temporada_premier",
+    "pregunta": "¿Qué guardameta tiene la mayor cantidad de porterías imbatidas en una sola temporada?",
+    "respuesta": "Petr Čech, quien mantuvo su arco en cero durante 24 partidos con el Chelsea en la temporada 2004-05.",
+    "keywords": [
+      "24 porterías imbatidas premier",
+      "petr cech chelsea 2004-05",
+      "arco en cero temporada premier"
+    ]
+  },
+  {
+    "id": 107,
+    "intent": "apodo_newcastle_st_james_park",
+    "pregunta": "¿Qué club es apodado \"The Magpies\" (Las Urracas) y juega como local en St James' Park?",
+    "respuesta": "El Newcastle United.",
+    "keywords": [
+      "st james park",
+      "the magpies",
+      "las urracas",
+      "newcastle united"
+    ]
+  },
+  {
+    "id": 108,
+    "intent": "entrenador_mas_partidos_premier_league",
+    "pregunta": "¿Quién es el entrenador con más partidos dirigidos en la historia de la Premier League?",
+    "respuesta": "Arsène Wenger, habiendo estado al frente del Arsenal en 828 encuentros.",
+    "keywords": [
+      "entrenador más partidos premier",
+      "arsène wenger",
+      "wenger 828 partidos",
+      "arsenal wenger"
+    ]
+  },
+  {
+    "id": 109,
+    "intent": "north_west_derby_manchester_united_liverpool",
+    "pregunta": "¿Cómo se le conoce al clásico enfrentamiento entre el Manchester United y el Liverpool FC?",
+    "respuesta": "El \"Derbi del Noroeste de Inglaterra\" (North West Derby).",
+    "keywords": [
+      "north west derby",
+      "manchester united vs liverpool",
+      "derbi del noroeste de inglaterra"
+    ]
+  },
+  {
+    "id": 110,
+    "intent": "gol_aguero_93_20_manchester_city",
+    "pregunta": "¿Qué jugador anotó el famoso gol en el minuto 93:20 que le dio el título de liga al Manchester City en 2012?",
+    "respuesta": "Sergio \"Kun\" Agüero, frente al Queens Park Rangers.",
+    "keywords": [
+      "gol minuto 93:20",
+      "sergio aguero",
+      "kun aguero 93:20",
+      "manchester city 2012"
+    ]
+  },
+  {
+    "id": 111,
+    "intent": "leicester_city_campeon_premier_2016",
+    "pregunta": "¿Qué sorpresivo club ganó la Premier League en la temporada 2015-16 contra todo pronóstico de las apuestas?",
+    "respuesta": "El Leicester City, bajo la dirección técnica de Claudio Ranieri.",
+    "keywords": [
+      "leicester city 2015-16",
+      "sorpresa premier league",
+      "claudio ranieri",
+      "leicester campeón"
+    ]
+  },
+  {
+    "id": 112,
+    "intent": "racha_mas_partidos_invicto_premier_arsenal",
+    "pregunta": "¿Qué equipo ostenta la racha de más partidos invicto de forma consecutiva en la historia del torneo?",
+    "respuesta": "El Arsenal, acumulando 49 partidos sin perder entre mayo de 2003 y octubre de 2004.",
+    "keywords": [
+      "49 partidos invicto premier",
+      "arsenal racha invicto",
+      "arsenal invictos"
+    ]
+  },
+  {
+    "id": 113,
+    "intent": "jugador_mas_joven_debut_premier_league",
+    "pregunta": "¿Quién es el jugador más joven en haber debutado en un partido de Premier League?",
+    "respuesta": "Ethan Nwaneri, quien debutó con el Arsenal a los 15 años y 181 días.",
+    "keywords": [
+      "jugador más joven debut premier",
+      "ethan nwaneri",
+      "nwaneri arsenal",
+      "15 años premier"
+    ]
+  },
+  {
+    "id": 114,
+    "intent": "estadio_mayor_capacidad_premier_league",
+    "pregunta": "¿Qué estadio posee la mayor capacidad de espectadores en la Premier League?",
+    "respuesta": "Old Trafford, la casa del Manchester United, con capacidad para más de 74,000 aficionados.",
+    "keywords": [
+      "estadio mayor capacidad premier",
+      "old trafford",
+      "manchester united estadio",
+      "capacidad old trafford"
+    ]
+  },
+  {
+    "id": 115,
+    "intent": "bota_de_oro_premier_league",
+    "pregunta": "¿Qué distinción reciben los tres máximos goleadores al final de cada temporada en la liga inglesa?",
+    "respuesta": "La Bota de Oro de la Premier League (Golden Boot).",
+    "keywords": [
+      "bota de oro premier league",
+      "golden boot premier",
+      "distinción goleadores premier"
+    ]
+  }
+]
