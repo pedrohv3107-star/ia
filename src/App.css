@@ -328,14 +328,14 @@
 .welcome-screen {
   position: relative;
   overflow: hidden;
-  min-height: 290px;
+  min-height: 320px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 36px 24px 28px;
+  padding: 36px 24px 32px;
   text-align: center;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.07);
 }
 
 .welcome-bg {
@@ -345,21 +345,23 @@
   overflow: hidden;
 }
 
+/* Left: Copa del Mundo / Champions dark navy */
 .welcome-bg-left {
   flex: 1;
-  background: 
-    radial-gradient(circle at 10% 20%, rgba(244, 63, 94, 0.2), transparent 50%),
-    radial-gradient(circle at 50% 80%, rgba(168, 85, 247, 0.18), transparent 60%),
-    linear-gradient(135deg, #180924 0%, #0f172a 100%);
-  opacity: 0.95;
+  background:
+    radial-gradient(circle at 10% 30%, rgba(201, 168, 76, 0.18) 0%, transparent 55%),
+    radial-gradient(circle at 60% 80%, rgba(0, 40, 104, 0.35) 0%, transparent 60%),
+    linear-gradient(160deg, #07101c 0%, #0c1a30 100%);
+  opacity: 0.98;
 }
 
+/* Right: Premier League / La Liga */
 .welcome-bg-right {
   flex: 1;
-  background: 
-    radial-gradient(circle at 90% 20%, rgba(6, 182, 212, 0.25), transparent 50%),
-    radial-gradient(circle at 40% 70%, rgba(16, 185, 129, 0.2), transparent 60%),
-    linear-gradient(135deg, #091f2c 0%, #090d16 100%);
+  background:
+    radial-gradient(circle at 80% 20%, rgba(55, 0, 60, 0.35) 0%, transparent 55%),
+    radial-gradient(circle at 30% 75%, rgba(0, 255, 135, 0.08) 0%, transparent 55%),
+    linear-gradient(160deg, #0c1a30 0%, #07101c 100%);
   display: flex;
   align-items: center;
   justify-content: flex-end;
@@ -368,14 +370,14 @@
 }
 
 .welcome-bg-lion {
-  font-size: 130px;
-  opacity: 0.14;
+  font-size: 150px;
+  opacity: 0.1;
   position: absolute;
-  right: 24px;
+  right: 28px;
   top: 50%;
   transform: translateY(-50%);
   user-select: none;
-  filter: drop-shadow(0 0 20px rgba(6, 182, 212, 0.4));
+  filter: drop-shadow(0 0 30px rgba(201, 168, 76, 0.35));
 }
 
 .welcome-content {
@@ -385,7 +387,7 @@
   flex-direction: column;
   align-items: center;
   gap: 14px;
-  max-width: 760px;
+  max-width: 780px;
   width: 100%;
 }
 
@@ -393,12 +395,13 @@
   width: 56px;
   height: 56px;
   border-radius: 50%;
-  background: linear-gradient(135deg, #10b981 0%, #06b6d4 50%, #8b5cf6 100%);
+  background: linear-gradient(135deg, #1a3a6b 0%, #002868 60%, #C9A84C 100%);
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #ffffff;
-  box-shadow: 0 0 30px rgba(6, 182, 212, 0.55), 0 0 10px rgba(16, 185, 129, 0.4);
+  color: #C9A84C;
+  font-size: 24px;
+  box-shadow: 0 0 28px rgba(201, 168, 76, 0.5), 0 0 10px rgba(0, 40, 104, 0.6);
   margin-bottom: 2px;
 }
 
@@ -407,100 +410,88 @@
   font-size: 1.7rem;
   font-weight: 800;
   letter-spacing: -0.02em;
-  background: linear-gradient(90deg, #38bdf8 0%, #c084fc 45%, #34d399 100%);
+  background: linear-gradient(90deg, #C9A84C 0%, #f8fafc 40%, #C9A84C 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
 .welcome-subtitle {
   font-size: 0.88rem;
-  color: var(--text-secondary);
+  color: #94a3b8;
   max-width: 480px;
-  line-height: 1.6;
+  line-height: 1.65;
 }
 
-/* Quick suggestion chips */
+/* Competition chips grid */
 .welcome-chips {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 12px;
-  margin-top: 10px;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 10px;
+  margin-top: 12px;
   width: 100%;
-  max-width: 700px;
+  max-width: 740px;
 }
 
-.welcome-chip {
+/* Base chip — uses CSS custom props from inline style */
+.welcome-chip.competition-chip {
   display: flex;
   align-items: center;
-  gap: 10px;
-  font-size: 0.82rem;
-  font-weight: 500;
-  padding: 10px 16px;
+  gap: 12px;
+  padding: 10px 14px;
   border-radius: var(--radius-md);
-  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  background: var(--chip-bg);
+  border: 1px solid var(--chip-border);
   cursor: pointer;
   text-align: left;
-  backdrop-filter: blur(8px);
+  backdrop-filter: blur(10px);
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.welcome-chip .chip-icon {
+.welcome-chip.competition-chip:hover {
+  background: color-mix(in srgb, var(--chip-bg) 60%, transparent 40%);
+  border-color: var(--chip-accent);
+  box-shadow: 0 0 18px color-mix(in srgb, var(--chip-accent) 40%, transparent 60%),
+              0 4px 16px rgba(0,0,0,0.35);
+  transform: translateY(-2px) scale(1.01);
+}
+
+.chip-logo {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-shrink: 0;
+  border-radius: 50%;
+  box-shadow: 0 0 10px color-mix(in srgb, var(--chip-accent) 50%, transparent 50%);
+  transition: box-shadow 0.25s ease;
 }
 
-/* Chip Colors */
-.welcome-chip.chip-gold {
-  background: rgba(245, 158, 11, 0.09);
-  border: 1px solid rgba(245, 158, 11, 0.35);
-  color: #fef3c7;
-}
-.welcome-chip.chip-gold .chip-icon { color: #f59e0b; }
-.welcome-chip.chip-gold:hover {
-  background: rgba(245, 158, 11, 0.18);
-  border-color: #f59e0b;
-  box-shadow: 0 4px 16px rgba(245, 158, 11, 0.3);
-  transform: translateY(-2px);
+.competition-chip:hover .chip-logo {
+  box-shadow: 0 0 20px color-mix(in srgb, var(--chip-accent) 70%, transparent 30%);
 }
 
-.welcome-chip.chip-emerald {
-  background: rgba(16, 185, 129, 0.09);
-  border: 1px solid rgba(16, 185, 129, 0.35);
-  color: #d1fae5;
-}
-.welcome-chip.chip-emerald .chip-icon { color: #10b981; }
-.welcome-chip.chip-emerald:hover {
-  background: rgba(16, 185, 129, 0.18);
-  border-color: #10b981;
-  box-shadow: 0 4px 16px rgba(16, 185, 129, 0.3);
-  transform: translateY(-2px);
+.chip-body {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  min-width: 0;
 }
 
-.welcome-chip.chip-purple {
-  background: rgba(168, 85, 247, 0.09);
-  border: 1px solid rgba(168, 85, 247, 0.35);
-  color: #f3e8ff;
-}
-.welcome-chip.chip-purple .chip-icon { color: #c084fc; }
-.welcome-chip.chip-purple:hover {
-  background: rgba(168, 85, 247, 0.18);
-  border-color: #a855f7;
-  box-shadow: 0 4px 16px rgba(168, 85, 247, 0.3);
-  transform: translateY(-2px);
+.chip-competition {
+  font-size: 0.68rem;
+  font-weight: 700;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  color: var(--chip-accent);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
-.welcome-chip.chip-cyan {
-  background: rgba(6, 182, 212, 0.09);
-  border: 1px solid rgba(6, 182, 212, 0.35);
-  color: #e0f2fe;
-}
-.welcome-chip.chip-cyan .chip-icon { color: #38bdf8; }
-.welcome-chip.chip-cyan:hover {
-  background: rgba(6, 182, 212, 0.18);
-  border-color: #06b6d4;
-  box-shadow: 0 4px 16px rgba(6, 182, 212, 0.3);
-  transform: translateY(-2px);
+.chip-question {
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: #e2e8f0;
+  line-height: 1.4;
 }
 
 /* ===== MESSAGES ===== */
